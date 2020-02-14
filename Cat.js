@@ -2,10 +2,7 @@ function Cat() {
 	this.stomatch = [];
 }
 
-function Mouse(name) {
-	// body...
-	this.name = name;
-}
+var Mouse = require('Mouse');
 
 Cat.prototype.eat = function(mouse) {
 	this.stomatch.push(mouse);
