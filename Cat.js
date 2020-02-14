@@ -4,7 +4,7 @@ function Cat() {
 
 function Mouse(name) {
 	// body...
-	this.name = name;
+	this.name =name;
 }
 
 Cat.prototype.eat = function(mouse) {
