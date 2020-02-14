@@ -1,4 +1,5 @@
-const Dog() => {
+function Dog() {
 	this.stomatch = [];
+	this.name = 'Mick'
 }
 
